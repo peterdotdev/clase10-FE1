@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+    margin-top: 2%;
+}
+
+body > * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/***************
+*****HEADER*****
+***************/
+
+header > * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top {
+    position: relative;
+    background-color: #1CD1B0;
+    height: 38px;
+    width: 1024px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.top * {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.bottom {
+    position: relative;
+    background-color: #00669F;
+    height: 101px;
+    width: 1024px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+.bottom * {
+    position: absolute;
+    left: 28px;
+    top: 28px;
+}
+
+/***************
+******MAIN******
+***************/
+
+main {
+    background-color: #FFFFFF;
+    width: 1024px;
+}
+
+main > * {
+    margin-left: 29px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background: #F3F3F3;
+    padding-bottom: 50px;
+}
+
+main h4 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+.batman {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+}
+
+.batman-img {
+    position: absolute;
+    left: 90px;
+    top: 125px;
+}
+
+.harley {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+}
+
+.harley-img {
+    position: absolute;
+    left: 90px;
+    top: 125px;
+}
+
+.heart {
+    position: absolute;
+    left: 18px;
+    top: 14px;
+}
+
+.description {
+    display: inline-block;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.7px;
+    line-height: 21px;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.vermas {
+    background-color: #00669F;
+    color:#FFFFFF;
+    width: 120px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+}
+
+.vermas:hover {
+    background-color: #055481;
+}
+
+.vermas:active {
+    background-color: #00466e;
+}
+
+a {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+/***************
+*****FOOTER*****
+***************/
+
+footer {
+    position: relative;
+    background-color: #00669F;
+    height: 51px;
+    width: 1024px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+footer * {
+    color: #FFF9F9;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+}
+
+
