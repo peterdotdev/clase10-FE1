@@ -50,6 +50,7 @@ header > * {
     font-weight: normal;
     font-size: 40px;
     line-height: 47px;
+    box-shadow: 0px 4px rgb(0,0,0,0.2);
 }
 
 .bottom * {
@@ -90,6 +91,9 @@ main h4 {
     position: relative;
     display: inline-block;
     width: 300px;
+    box-shadow: -1px 4px rgb(0,0,0,0.15),1px 0px rgb(0,0,0,0.15);
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
 }
 
 .batman-img {
@@ -102,6 +106,9 @@ main h4 {
     position: relative;
     display: inline-block;
     width: 300px;
+    box-shadow: -1px 4px rgb(0,0,0,0.15),1px 0px rgb(0,0,0,0.15);
+    border-top-right-radius: 10%;
+    border-top-left-radius: 10%;
 }
 
 .harley-img {
