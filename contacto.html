@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 10 de FE1</title>
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+    <header>
+        <div class="top"><p>Descuento 20%</p></div>
+        <div class="bottom">
+            <a href="index.html"><img class="logo" src="img/logo.png"></a>
+            <h6>Nombre tienda</h6>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registrarme.html">Registrarme</a></li>
+                <li><a href="ingresar.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <form action="#" method="POST">
+            <label for="name"></label>
+            <input type="text" id="name" name="name" placeholder="Nombre y apellido" autofocus required>
+            <label for="email"></label>
+            <input type="email" id="email" name="email" placeholder="Correo Electrónico" required>
+            <label for="comments"></label>
+            <textarea id="comments" name="comments" rows="6" required></textarea>
+            <div class="buttons">
+                <button type="reset">Resetear</button>
+                <button type="submit">Entrar</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>
