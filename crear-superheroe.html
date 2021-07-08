@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 10 de FE1</title>
+    <link rel="stylesheet" href="css/crear-superheroe.css">
+</head>
+<body>
+    <header>
+        <div class="top"><p>Descuento 20%</p></div>
+        <div class="bottom">
+            <a href="index.html"><img class="logo" src="img/logo.png"></a>
+            <h6>Nombre tienda</h6>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registrarme.html">Registrarme</a></li>
+                <li><a href="ingresar.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="little-main">
+        <div class="blue-area">
+            <h1 class="titulo-formulario">Añadi tu super!</h1>
+            <p>Agrega tu personaje favorito completando las opciones.</p>
+            <form action="#" method="POST">
+                <div class="especie-nombre">
+                    <div class="nombre">
+                        <label for="nombre">*Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+                    <div class="especie">
+                        <label for="especie">*Especie</label>
+                        <select name="especie" id="especie">
+                            <option disabled selected>Especie</option>
+                            <option value="humano">Humano</option>
+                            <option value="kryptoniano">Kryptoniano</option>
+                            <option value="unknown">Unknown</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="fecha-archivo">
+                    <div class="fecha">
+                        <label for="date">Fecha</label>
+                        <input type="date" name="date" id="date">
+                    </div>
+                    <div class="archivo">
+                        <label for="foto">Agregar Foto</label>
+                        <input type="file" name="foto" id="foto">
+                    </div>
+                </div>
+                <div class="descripcion-fieldsets">
+                    <div class="descripcion">
+                        <label for="descripcion"></label>
+                        <textarea name="descripcion" id="descripcion" cols="30" rows="14" placeholder="Descripcion"></textarea>
+                    </div>
+                    <div class="fieldsets">
+                        <fieldset>
+                            <legend>Poderes</legend>
+                            <label>
+                                <div class="volar">
+                                    <input type="checkbox" name="volar" id="volar">
+                                    <p>Volar</p>
+                                </div>
+                                <div class="inteligencia">
+                                    <input type="checkbox" name="inteligencia" id="int">
+                                    <p>Superinteligencia</p>
+                                </div>
+                                <div class="vista">
+                                    <input type="checkbox" name="vista" id="vista">
+                                    <p>Vista de rayo laser</p>
+                                </div>
+                                <div class="billetera">
+                                    <input type="checkbox" name="billetera" id="billetera">
+                                    <p>Billetera gorda</p>
+                                </div>
+                            </label>
+                        </fieldset>
+                        <hr>
+                        <fieldset class="personaje">
+                            <legend>Tipo de personaje</legend>
+                            <label>
+                                <div class="heroe">
+                                    <input type="radio" name="tipo" id="heroe">
+                                    <p>Heroe / Heroina</p>
+                                </div>
+                                <div class="villano">
+                                    <input type="radio" name="tipo" id="villano">
+                                    <p>Villano / Villana</p>
+                                </div>
+                            </label>
+                        </fieldset>
+                    </div>
+                </div>
+                <button class="anadir">Añadir</button>
+            </form>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>
